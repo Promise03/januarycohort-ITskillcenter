@@ -1,1 +1,55 @@
-.b{background-color: rgb(233, 233, 245);}
+/* Reser marging and padding*/
+
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+/* set bacgroun colour and fon style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+color: #333;
+line-height: 1.6;
+padding: 20px;
+}
+/* center-align the header */
+header p {
+font-size: 1.2rem;
+color: #7f8c8d;
+}
+#about {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
+#about h2 {
+    color: #34495e;
+}
+#projects {
+    margin-bottom: 20px;
+}
+.project {
+    background-color: #ffffff;
+    border:1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.project h3 {
+    color: #2980b9;
+    margin-bottom: 5px;
+}
+#contact {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+#contact a {
+    color: #2980b9;
+    text-decoration: none;
+}
+#contact a:hover {
+    text-decoration: underline;
+}

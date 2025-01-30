@@ -1,0 +1,45 @@
+* {
+    padding :0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+form {
+    background-color: aqua;
+    color: red;
+    width: 50%;
+    margin: auto;
+}
+
+
+    input:focus {
+        background-color: blue;
+
+    }
+        input:hover {
+            background-color: orange;
+        }
+        form:hover {
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="summit"]{
+            cursor: pointer;
+
+        }
+    label[for="name"]{
+        background-color: blue;
+        color: white;
+    }
+
+
+
+.firstheading {
+    color: red;
+    text-align: center;
+}
+.secondheading {
+    color: blue;
+    text-align: right;
+}
